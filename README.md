@@ -22,12 +22,12 @@ pip install requests beautifulsoup4 pandas openpyxl
 ## ▶️ How to Run
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR-USERNAME/ebay-laptop-scraper.git
-cd ebay-laptop-scraper
+git clone https://github.com/DOSDX19/ebay-laptops-scraper.git
+cd ebay-laptops-scraper
 ```
 2. Run the script:
 ```bash
-python scraper.py
+python laptops.py
 ```
 3. After running, check `laptops.xlsx` for the results.
 
@@ -35,9 +35,6 @@ python scraper.py
 - You can adjust the **eBay search URL** in the script to target different filters or categories.  
 - **Avoid hardcoding cookies** if possible — they may expire quickly.  
 - Be mindful of **eBay's Terms of Service** when scraping.  
-
-## 📸 Example Output
-![Example Output](example_output.png)
 
 ## 📜 License
 This project is open-source under the MIT License.
